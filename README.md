@@ -30,16 +30,22 @@ A Java-based application to evaluate and determine the winner among multiple pla
 
 1. Clone the Repository:
 
-`git clone https://github.com/AyushiArora1604/poker-game.git
-cd poker-game`
+```bash
+git clone https://github.com/AyushiArora1604/poker-game.git
+cd poker-game
+```
 
 2. Compile the Code:
 
-`javac src/**/*.java`
+```bash
+javac src/**/*.java
+```
 
 3. Run the Application:
 
-`java src/Main.java`
+```bash
+java src/Main.java
+```
 
 ## Usage
 1. Enter the number of players (Minimum: 2, Maximum: 10).
@@ -59,6 +65,18 @@ How? Each evaluator checks its condition, and if no match is found, passes the r
 
 ### Stream API for Optimization
 Simplified pair and rank evaluations using Java Streams API for reduced complexity and better performance.
+
+## Run the Project
+1. Make sure Java is installed.
+2. Make the script executable:
+   ```bash
+   chmod +x start.sh
+   ```
+   
+3. Execute the script
+    ```bash
+    ./start.sh
+    ```
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
